@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title> ريادي ومستثمر
+  </title>
+  <meta content="نحن نقوم بجمع الرواد الأعمال والمستثمرين في مكان واحد
+  وضمان حقوق كلا الطرفين
+  " name="description">
+  <meta content="نحن نقوم بجمع الرواد الأعمال والمستثمرين في مكان واحد
+  وضمان حقوق كلا الطرفين
+  " name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.jpeg" rel="icon">
+  <link href="assets/img/logo.jpeg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--   <link href="assets/css/bootstrap.rtl.min.css" rel="stylesheet">
+ -->
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header dir="rtl" id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo"> ريادي ومستثمر</a>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">الرئيسية </a></li>
+          <li><a href="#about">من نحن</a></li>
+          <li><a href="#projects">المشاريع</a></li>
+          <li><a href="#contact">تواصل معنا</a></li>
+        </ul>
+      </nav>
+      <!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center text-center hero">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+      <h1>ريادي ومستثمر</h1>
+      <h2>استثمر بأفضل المشاريع الناشئة وانت في بيتك</h2>
+      <a onclick="openLoginModal();" class="btn-get-started ">تسجيل الدخول</a>
+    </div>
+  </section><!-- End Hero -->
+  <div class="container">
+    <div class="modal fade login" id="loginModal">
+      <div class="modal-dialog login animated">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span
+                aria-hidden="true">×</span></button>
+            <h4 class="modal-title">تسجيل الدخول</h4>
+          </div>
+          <div class="modal-body">
+            <div class="box">
+              <div class="content">
+
+                <div class="error text-right"></div>
+                <div class="form loginBox">
+                  <form method="" action="" accept-charset="UTF-8">
+                    <input id="email" class="form-control" type="text" placeholder="البريد الالكتروني" name="email">
+                    <input id="password" class="form-control" type="password" placeholder="كلمة المرور" name="password">
+                    <input class="btn btn-default btn-login" type="button" value="تسجيل الدخول" onclick="loginAjax()">
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="content registerBox" style="display:none;">
+                <div class="form">
+                  <form method="" html="{:multipart=>true}" data-remote="true" action="" accept-charset="UTF-8">
+                    <input id="email" class="form-control" type="text" placeholder="البريد الالكتروني" name="email">
+                    <input id="password" class="form-control" type="password" placeholder="كلمة المرور" name="password">
+                    <input id="password_confirmation" class="form-control" type="password"
+                      placeholder="تأكيد كلمة المرور" name="password_confirmation">
+                    <input class="btn btn-default btn-register" type="button" value="انشاء حساب" name="commit">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="forgot login-footer">
+              ليس لديك حساب؟
+              <a href="javascript: showRegisterForm();">تسجيل</a>
+
+            </div>
+            <div class="forgot register-footer" style="display:none">
+              <span>لديك حساب بالفعل ؟</span>
+              <a href="javascript: showLoginForm();">تسجيل الدخول</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <section class=" sec" dir="rtl" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6  text-justify d-flex align-items-center " data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/page2.1.jpg" class="img-fluid img2" data-tilt alt="img">
+          </div>
+          <div class="col-md-6 d-flex align-items-center  text-justify ">
+            <div>
+              <h3 class="mt-md-0 mt-4" data-aos="fade-up" data-aos-delay="200">من نحن</h3>
+              <p class="pl-3" data-aos="fade-up" data-aos-delay="300">نحن نقوم بجمع الرواد الأعمال والمستثمرين في مكان
+                واحد
+                وضمان حقوق كلا الطرفين
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- projects section start -->
+    <section id="projects" class="projects">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h3><span>المشاريع </span></h3>
+          <p class="text-white">تصفح مشاريعنا الابداعية</p>
+        </div>
+        <div class="events-slider swiper mt-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="row projects-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/project1.jpg" data-tilt class="img-fluid img2" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Project Name</h3>
+                  <ul>
+                    <li><i class="bx bx-check"></i><span>Client : </span> Omar
+                    </li>
+                    <li><i class="bx bx-check"></i><span>Date : </span>4/5/2022
+                    </li>
+                    <li><i class="bx bx-check"></i><span>Skills : </span>Html-Css-js
+                    </li>
+                    <li><i class="bx bx-check"></i><span>Skills : </span><span>Link</span>omar@gmail.com
+                    </li>
+                  </ul>
+                  <p>
+                    How far you go in life depends on your being tender with the young, compassionate with the aged
+                  </p>
+                  <p>
+                    sympathetic with the striving and tolerant of the weak and strong. Because someday in your life you
+                    will have been all of these.
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row projects-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/project1.jpg" data-tilt class="img-fluid img2" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Project Name</h3>
+                  <ul>
+                    <li><i class="bx bx-check"></i><span>Client : </span> Omar
+                    </li>
+                    <li><i class="bx bx-check"></i><span>Date : </span>4/5/2022
+                    </li>
+                    <li><i class="bx bx-check"></i><span>Skills : </span>Html-Css-js
+                    </li>
+                    <li><i class="bx bx-check"></i><span>Skills : </span><span>Link</span>omar@gmail.com
+                    </li>
+                  </ul>
+                  <p>
+                    How far you go in life depends on your being tender with the young, compassionate with the aged
+                  </p>
+                  <p>
+                    sympathetic with the striving and tolerant of the weak and strong. Because someday in your life you
+                    will have been all of these.
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row projects-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/project1.jpg" data-tilt class="img-fluid img2" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Project Name</h3>
+                  <ul>
+                    <li><i class="bx bx-check"></i><span>Client : </span> Omar
+                    </li>
+                    <li><i class="bx bx-check"></i><span>Date : </span>4/5/2022
+                    </li>
+                    <li><i class="bx bx-check"></i><span>Skills : </span>Html-Css-js
+                    </li>
+                    <li><i class="bx bx-check"></i><span>Skills : </span><span>Link</span>omar@gmail.com
+                    </li>
+                  </ul>
+                  <p>
+                    How far you go in life depends on your being tender with the young, compassionate with the aged
+                  </p>
+                  <p>
+                    sympathetic with the striving and tolerant of the weak and strong. Because someday in your life you
+                    will have been all of these.
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio section end -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h3><span>اتصل بنا</span></h3>
+          <p>تواصل معنا عبر وسائل التواصل التالية</p>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <form method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="الاسم" data-rule="minlen:4"
+                    data-msg="يرجى ادخال اسم اكبر من 4 حروف" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="الريد الالكتروني"
+                    data-rule="email" data-msg="يرجى ادخال بريد صحيح" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="عنوان الموضوع"
+                  data-rule="minlen:4" data-msg="يرجى ادخال عنوان الموضع" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required"
+                  data-msg="يرجى ادخال الرسالة" placeholder="الرسالة"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">تم الارسال شكرا لك </div>
+              </div>
+              <div class="text-center"><button type="submit">إرسال </button></div>
+            </form>
+          </div>
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="info-box  mb-4">
+              <i class="bx bx-phone-call"></i>
+              <h3>الهاتف</h3>
+              <p>0798065607</p>
+            </div>
+            <div class="info-box  mb-4" data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-envelope"></i>
+              <h3>البريد الإلكتروني</h3>
+              <p>omar3044idrees@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+
+  <footer dir="rtl" id="footer">
+
+    <div class="footer-top text-right">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>تابعنا <span>.</span></h3>
+            <div>
+              <br>
+              <strong>موبايل : </strong><a href="#" target="_blank">0798065607 </a><br>
+              <strong> البريد الالكتروني :</strong><a href="mailto:omar3044idrees@gmail.com"> omar3044idrees@gmail.com
+              </a> <br>
+              <br>
+              <div class="social-links text-right text-md-end pt-3 pt-md-0">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-snapchat"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>المحتويات</h4>
+
+            <ul>
+              <li><i class="bx bx-chevron-left"></i> <a href="#">الرئيسية</a></li>
+              <li><i class="bx bx-chevron-left"></i> <a href="#">خدماتنا</a></li>
+              <li><i class="bx bx-chevron-left"></i> <a href="#">المشاريع</a></li>
+              <li><i class="bx bx-chevron-left"></i> <a href="#">الاسئلة الشائعة</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-6 footer-links">
+            <h4>خدماتنا</h4>
+            <ul>
+              <li><i class="bx bx-chevron-left"></i> <a href="#">جمع رواد ومستثمريين</a></li>
+              <li><i class="bx bx-chevron-left"></i> <a href="#"> إشراف على التنفيذ</a></li>
+              <li><i class="bx bx-chevron-left"></i> <a href="#">إدارة المشاريع</a></li>
+              <li><i class="bx bx-chevron-left"></i> <a href="#">أعمال ريادية و استثمارية</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>ريادي ومستثمر</h4>
+            <p>نحن نقوم بجمع الرواد الأعمال والمستثمرين في مكان واحد وضمان حقوق كلا الطرفين
+            </p>
+            <p>نحن نقوم بجمع الرواد الأعمال والمستثمرين في مكان واحد وضمان حقوق كلا الطرفين
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center py-4">
+      <div class="copyright">
+        &copy; جميع الحقوق محفوظة <strong><span>لصالح ريادي ومستثمر</span></strong>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/vanilla-tilt.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
